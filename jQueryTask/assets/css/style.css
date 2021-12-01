@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .row .cards ul li {
+  list-style: none;
+}
+
+.container .row .cards ul li .text {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: grey solid 1px;
+  border-left: grey solid 1px;
+  border-right: grey solid 1px;
+  width: 600px;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.container .row .cards ul li .text p {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.container .row .cards ul li .text i {
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.container .row .cards ul li #t4 {
+  border-bottom: grey solid 1px;
+}
+
+.container .row .cards ul li .desc {
+  border-left: grey solid 1px;
+  border-right: grey solid 1px;
+  display: none;
+  width: 600px;
+  padding: 6px;
+  opacity: 0.8;
+}
+
+.container .row .cards ul li #4 {
+  border-bottom: grey 1px solid;
+}
+/*# sourceMappingURL=style.css.map */
